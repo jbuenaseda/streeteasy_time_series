@@ -94,8 +94,18 @@ Another improvement for this project I would like to add is a linear regression 
 - and of course, exposed brick
 
 ## Repository Navigation
+1. csvs
+2. images
+3. README
+4. Data Cleaning/Filtering & Exploratory Data Analysis (eda.ipynb)
+5. Astoria Rent Prediction Models (astoria_rent.ipynb)
+6. Greenpoint Rent Prediction Models (greenpt_rent.ipynb)
+7. Sunnyside Rent Prediction Models (sunnyside_rent.ipynb)
 
 ## Reproduction Instructions
+
+To get started:
+ - Data Cleaning/Filtering & Exploratory Data Analysis (eda.ipynb) contains all data to start your own prediction model. To choose a neighborhood, simply pick from the three rental type variables (studio, 1br, 3br+) and filter columns with the neighborhood name.
 
 ## Link to Presentation
 

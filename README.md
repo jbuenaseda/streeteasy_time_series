@@ -84,3 +84,4 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 ## Link to Presentation
 
 ## Sources
+Persistence Model & Test/Train Split of TimeSeries Data was made possible with the help of Jason Brownlee, PhD of https://machinelearningmastery.com/

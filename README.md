@@ -28,21 +28,18 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 ![](/images/studios.png)
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ![](/images/1br.png)
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ![](/images/3br.png)
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ### ACF & PACF
 ![](/images/acf.png)
 ![](/images/pacf.png)
@@ -50,16 +47,15 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 The ACF and PACF plots helps us determine the order numbers for our ARIMA model when fitting our data
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ### Visual Stationary Check Using Rolling Statistics
 ![](/images/rollingstudio.png)
 <br />
 Mean and Standard Deviation of the data remains constant passing the test for stationarity
 <br />
 <br />
-<br />
+
 ## Models
 ### Base Model
 ![](/images/base.png)
@@ -67,27 +63,24 @@ Mean and Standard Deviation of the data remains constant passing the test for st
 The Persistence Model was used as the base model. It compares a lag-1 of the data to the present data as its prediction. This model had an RMSE of 54.9.
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ### ARIMA Model
 ![](/images/arima.png)
 <br />
 The ARIMA model combines the auto-correlation function and the partial auto-correlation funciton with the number of times the data is differenced. This particular ARIMA model (order = 1,0,1) had an RMSE score of 51.99 doing slightly better than the base model. 
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 ### FB Prophet Model
 ![](/images/fb.png)
 <br />
 FB Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. This FB Prophet model had an RMSE score of 85.64 doing worse than the base and ARIMA model. The lack of trend and seasonality seem to have affected its performance which explains the higher RMSE. 
 <br />
 <br />
-<br />
-<br />
-<br />
+
+
 
 ## Conclusion
 Moving into the city or within the city is a grueling task from the highly competitive apartment market to the consideration of the duration of your lease. We can always use all the guidance we can get when preparing for a move. Knowing how much we can expect a rental to be can put our minds at ease and have one less thing to worry about. With that said, the models used for this project given the different neighborhoods and apartment types differ in results. Sometimes an ARIMA model would have a lower error but sometimes even the base model beats both ARIMA and FB Prophet. It is important that all models are evaluated and compared to each other to get the best results. We get a pretty good idea on what rent could be and maybe that's enough to at least get the plan to move forward for now.  

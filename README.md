@@ -22,6 +22,24 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 
 ## EDA 
 
+![](/images/studios.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+![](/images/1br.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+![](/images/3br.png)
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## Future Improvement
 

@@ -48,6 +48,8 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 ### Visual Stationary Check Using Rolling Statistics
 ![](/images/rollingstudio.png)
 <br />
+Mean and Standard Deviation of the data remains constant passing the test for stationarity
+<br />
 <br />
 <br />
 ## Models
@@ -63,7 +65,7 @@ The Persistence Model was used as the base model. It compares a lag-1 of the dat
 ### ARIMA Model
 ![](/images/arima.png)
 <br />
-The ARIMA model (order = 1,0,1) had an RMSE score of 51.99 doing slightly better than the base model. 
+The ARIMA model combines the auto-correlation function and the partial auto-correlation funciton with the number of times the data is differenced. This particular ARIMA model (order = 1,0,1) had an RMSE score of 51.99 doing slightly better than the base model. 
 <br />
 <br />
 <br />
@@ -72,7 +74,7 @@ The ARIMA model (order = 1,0,1) had an RMSE score of 51.99 doing slightly better
 ### FB Prophet Model
 ![](/images/fb.png)
 <br />
-The FB Prophet model had an RMSE score of 85.64 doing worse than the base and ARIMA model.
+FB Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. This FB Prophet model had an RMSE score of 85.64 doing worse than the base and ARIMA model. The lack of trend and seasonality seem to have affected its performance which explains the higher RMSE. 
 <br />
 <br />
 <br />

@@ -97,6 +97,7 @@ Another improvement for this project I would like to add is a linear regression 
 - and of course, exposed brick
 
 ## Repository Navigation
+Contents:
 1. csvs
 2. images
 3. README

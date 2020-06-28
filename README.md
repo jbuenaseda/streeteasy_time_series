@@ -40,6 +40,40 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 <br />
 <br />
 <br />
+## Astoria Map:
+![](/images/astoria.png)
+<br />
+<br />
+
+### Visual Stationary Check Using Rolling Statistics
+![](/images/rollingstudio.png)
+<br />
+<br />
+<br />
+## Models
+### Base Model
+![](/images/base.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+### ARIMA Model
+![](/images/arima.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+### FB Prophet Model
+![](/images/fb.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+
+## Conclusion
 
 ## Future Improvement
 

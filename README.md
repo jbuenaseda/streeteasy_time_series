@@ -18,6 +18,8 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 - Model (model and fit data for prediction)
 - iNterpret (check accuracy of results and apply in the real world)
 
+# Preview for Astoria:
+
 ## EDA 
 
 

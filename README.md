@@ -19,7 +19,10 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 - iNterpret (check accuracy of results and apply in the real world)
 
 # Preview for Astoria:
-
+## Astoria Map:
+![](/images/astoria.png)
+<br />
+<br />
 ## EDA 
 
 ![](/images/studios.png)
@@ -40,11 +43,16 @@ Tons of people move to NYC everyday - and with a city so diverse with a lot of d
 <br />
 <br />
 <br />
-## Astoria Map:
-![](/images/astoria.png)
+### ACF & PACF
+![](/images/acf.png)
+![](/images/pacf.png)
+<br />
+The ACF and PACF plots helps us determine the order numbers for our ARIMA model when fitting our data
 <br />
 <br />
-
+<br />
+<br />
+<br />
 ### Visual Stationary Check Using Rolling Statistics
 ![](/images/rollingstudio.png)
 <br />

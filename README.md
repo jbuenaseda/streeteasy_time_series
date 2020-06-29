@@ -94,6 +94,7 @@ Another improvement for this project I would like to add is a linear regression 
 - type of floor
 - allowance of pets
 - prewar/modern
+- walkscore
 - and of course, exposed brick
 
 ## Repository Navigation

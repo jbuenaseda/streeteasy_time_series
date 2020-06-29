@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-Tons of people move to NYC everyday - and with a city so diverse with a lot of different neighborhoods and different standards of living, people tend to try out as much as they can while living in the city. The changes of one's environment is as fast paced as the city itself. You can go from having 8 roommates in a 5 bedroom apartment, get tired of them and move to a studio, meet a partner and then move to a 1 bedroom or get a new remote job that made you move to a 2 bedroom for a home office all within a short amount of time. This also applies to anyone out of the city planning to save money to finally chase their dreams in NYC while properly budgeting. So this project aims to help you plan your NYC life, which finding an apartment within your budget and preffered neighborhood is such an important factor.
+Tons of people move to NYC everyday - and with a city so diverse with a lot of different neighborhoods and different standards of living, people tend to try out as much as they can while living in the city. The changes to one's life situation may be as fast paced as the city itself. You can go from having 8 roommates in a 5 bedroom apartment, get tired of them and move to a studio, meet a partner and then move to a 1 bedroom or get a new remote job that made you move to a 2 bedroom for a home office all within a short amount of time. This also applies to anyone out of the city planning to save money to finally chase their dreams in NYC while properly budgeting. So this project aims to help you plan your NYC life, which finding an apartment within your budget and preferred neighborhood is such an important factor. This project also only specifically covers the three aforementioned neighborhoods, but could easily be extended to provide a comprehensive view of rent prices for all of the city.
 
 ## Data:
 
@@ -83,7 +83,7 @@ FB Prophet is a procedure for forecasting time series data based on an additive 
 
 
 ## Conclusion
-Moving into the city or within the city is a grueling task from the highly competitive apartment market to the consideration of the duration of your lease. We can always use all the guidance we can get when preparing for a move. Knowing how much we can expect a rental to be can put our minds at ease and have one less thing to worry about. With that said, the models used for this project given the different neighborhoods and apartment types differ in results. Sometimes an ARIMA model would have a lower error but sometimes even the base model beats both ARIMA and FB Prophet. It is important that all models are evaluated and compared to each other to get the best results. We get a pretty good idea on what rent could be and maybe that's enough to at least get the plan to move forward for now.  
+Selecting a place to rent in the city can be a grueling task, as a renter strives to get the most value out of their rent cost but must also be realistic given a highly competitive apartment market. Not to mention other constraining factors such as duration of lease. We can always use all the guidance we can get when preparing for a move. Knowing how much we can expect a rental to be can put our minds at ease and have one less thing to worry about. With that said, the models used for this project given the different neighborhoods and apartment types differ in results. Sometimes an ARIMA model would have a lower error but sometimes even the base model beats both ARIMA and FB Prophet. It is important that all models are evaluated and compared to each other to get the best results. We get a pretty good idea on what rent could be and maybe that's enough to at least get the plan to move forward for now.  
 ## Future Improvement
 Some future improvement and further analysis include adding in exogenous variables such as:
 - cost of living of the neighborhood 
@@ -113,5 +113,17 @@ To get started:
 
 ## Link to Presentation
 
+https://docs.google.com/presentation/d/1FQYufuqmlkO-GwBV9uYUDLOX8BFssuqNjYpZymGtatE/edit?usp=sharing
+
 ## Sources
 Persistence Model & Test/Train Split of TimeSeries Data was made possible with the help of Jason Brownlee, PhD of https://machinelearningmastery.com/
+<br />
+## Appendix
+
+Street Easy Dashboard: https://streeteasy.com/blog/data-dashboard/
+<br />
+Persistence Model: https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
+<br />
+Statsmodel ARIMA: https://www.statsmodels.org/stable/generated/statsmodels.tsa.arima_model.ARIMA.html
+<br />
+FB Prophet: https://facebook.github.io/prophet/
